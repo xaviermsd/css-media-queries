@@ -1,0 +1,91 @@
+/* 
+Hello CSS Devs,
+This is Media Queries for Desktop,Laptops,Tablet( Ipads ) , Mobile.
+For Making Responsive Website Design 
+*/
+
+
+/* 
+  Device = Desktops
+  Screen size = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+	/* Your CSS Here */
+}
+
+
+/* 
+  Device = Laptops, Desktops
+  Screen size = Between 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	/* Your CSS Here */
+}
+
+
+/* 
+  Device = Tablets, Ipads (portrait)
+  Screen size = Between 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	/* Your CSS Here */
+}
+
+
+/* 
+   Device = Tablets, Ipads (landscape)
+   Screen size = Between 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	/* Your CSS Here */
+}
+
+
+/* 
+   Device = Low Resolution Tablets, Mobiles (Landscape)
+   Screen size = Between 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	/* Your CSS Here */
+}
+
+
+/* 
+   Device = Most of the Smartphones Mobiles (Portrait)
+   Screen size = Between 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	/* Your CSS Here */
+}
+
+
+/* Others */
+
+
+/* ================================= Other Query #media ================================= */
+
+
+/********************************* Mobile Potrait #MP ********************************/
+
+@media screen and (max-width: 320px) and (orientation: portrait) {}
+
+
+/********************************* Mobile Potrait ********************************/
+
+@media screen and (max-width: 480px) and (orientation: portrait) {}
+
+
+/********************************* Mobile landscape ********************************/
+
+@media screen and (max-width: 480px) and (orientation: landscape) {}
+
+
+/* ================================= Common For All mobile definitions #mx ================================= */
+
+@media all and (max-width: 767px) {
